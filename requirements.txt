@@ -1,0 +1,11 @@
+# Python 3.12 (the paper used Python 3.12.7). Versions of the ML libraries are those reported in Methods.
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+scikit-learn==1.7.1
+xgboost==3.0.4
+shap==0.51.0
+joblib>=1.4
+# ESM-2 features (05_esm2_features); the model weights (~2.5 GB) are downloaded from Hugging Face on first use
+torch>=2.2
+transformers>=4.40

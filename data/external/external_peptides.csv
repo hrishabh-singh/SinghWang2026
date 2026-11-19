@@ -1,0 +1,7 @@
+peptide,sequence,source
+EF1R,EKLDITGDKDPD,reverse EF-hand loop (Gutenthaler-Tietze et al. 2025)
+EF2R,EKADLTGDKDPD,reverse EF-hand loop (Gutenthaler-Tietze et al. 2025)
+EF3R,EKKDLTGDNDPD,reverse EF-hand loop (Gutenthaler-Tietze et al. 2025)
+EF4R,ERADITGDNDPN,reverse EF-hand loop (Gutenthaler-Tietze et al. 2025)
+EF4Rmod,ERADITGDNDPD,reverse EF-hand loop (Gutenthaler-Tietze et al. 2025)
+LBT_N5D,FIDTDNDGWIEGDELLA,LBT3 with the N5D substitution (ref. 26)

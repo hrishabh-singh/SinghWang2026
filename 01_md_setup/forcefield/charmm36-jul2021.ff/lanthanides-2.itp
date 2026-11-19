@@ -1,0 +1,187 @@
+;References
+;[1] Comparative CHARMM and AMOEBA Simulations of Lanthanide Hydration Energetics and Experimental Aqueous-Solution Structures
+;    Baofu Qiao, S. Skanthakumar, Lynda Soderholm
+;    J. Chem. Theory Comput. 2018, 14 (3), 1781–1790
+
+[ atomtypes ]
+;type at.num  mass      charge ptype   sigma,nm       epsilon,kJ/mol   (sigma = rmin/1.122462048)
+ La    57     138.9055   3.0     A     0.338541513    0.2092           ;rmin=0.38nm,  epsilon=0.05kcal/mol  [1]  
+ Ce    58     140.12     3.0     A     0.320723539    0.16736          ;rmin=0.36nm,  epsilon=0.04kcal/mol  [1]
+ Pr    59     140.91     3.0     A     0.320723539    0.2092           ;rmin=0.36nm,  epsilon=0.05kcal/mol  [1]
+ Nd    60     144.24     3.0     A     0.311814551    0.2092           ;rmin=0.35nm,  epsilon=0.05kcal/mol  [1]
+ Sm    62     150.36     3.0     A     0.298451071    0.33472          ;rmin=0.335nm, epsilon=0.08kcal/mol  [1] 
+ Eu    63     151.964    3.0     A     0.293996577    0.12552          ;rmin=0.33nm,  epsilon=0.03kcal/mol  [1]
+ Gd    64     157.25     3.0     A     0.289542083    0.33472          ;rmin=0.325nm, epsilon=0.08kcal/mol  [1]
+ Tb    65     158.93     3.0     A     0.285087590    0.2092           ;rmin=0.32nm,  epsilon=0.05kcal/mol  [1]
+ Dy    66     162.50     3.0     A     0.276178603    0.2092           ;rmin=0.31nm,  epsilon=0.05kcal/mol  [1] 
+ Ho    67     164.93     3.0     A     0.271724109    0.50208          ;rmin=0.305nm, epsilon=0.12kcal/mol  [1]
+ Er    68     167.26     3.0     A     0.267269615    0.4184           ;rmin=0.30nm,  epsilon=0.10kcal/mol  [1]
+ Tm    69     168.93     3.0     A     0.258360628    0.29288          ;rmin=0.29nm,  epsilon=0.07kcal/mol  [1]
+ Yb    70     173.04     3.0     A     0.253906135    0.46024          ;rmin=0.285nm, epsilon=0.11kcal/mol  [1]
+ Lu    71     174.967    3.0     A     0.249451641    0.50208          ;rmin=0.28nm,  epsilon=0.12kcal/mol  [1]
+
+[ moleculetype ]
+; molname       nrexcl
+  La3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     La            1       La              La       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+[ moleculetype ]
+; molname       nrexcl
+  Ce3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Ce            1       Ce              Ce       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Pr3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Pr            1       Pr              Pr       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Nd3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Nd            1       Nd              Nd       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Sm3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Sm            1       Sm              Sm       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Eu3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Eu            1       Eu              Eu       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Gd3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Gd            1       Gd              Gd       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Tb3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Tb            1       Tb              Tb       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Dy3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Dy            1       Dy              Dy       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Ho3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Ho            1       Ho              Ho       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Er3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Er            1       Er              Er       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Tm3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Tm            1       Tm              Tm       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Yb3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Yb            1       Yb              Yb       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif
+
+
+[ moleculetype ]
+; molname       nrexcl
+  Lu3+            1
+[ atoms ]
+; id    at type       res.nr  residu.name     at.name  cg.nr  charge
+  1     Lu            1       Lu              Lu       1      3
+#ifdef POSRES
+[ position_restraints ]
+     1     1  1000  1000  1000
+#endif

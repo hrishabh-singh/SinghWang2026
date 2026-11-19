@@ -1,0 +1,21 @@
+# Outputs written by the scripts
+01_md_setup/runs/
+02_metadynamics/inputs/runs/
+04_descriptor_correlations/results/
+05_esm2_features/artifacts_refit/
+07_tb_affinity_classifier/results/
+08_ddg_regression/results/
+# Python and OS files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+# GROMACS/PLUMED backups and large trajectories
+\#*#
+*.trr
+*.xtc
+*.cpt
+*.edr
+HILLS*

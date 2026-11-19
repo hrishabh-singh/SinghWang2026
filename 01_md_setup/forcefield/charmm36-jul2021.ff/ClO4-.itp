@@ -1,0 +1,46 @@
+;perchlorate, ClO_4^-
+;[1] Molecular Simulation Study of Some Thermophysical and Transport Properties of Triazolium-Based Ionic Liquids
+;    Cesar Cadena and Edward J. Maginn, J. Phys. Chem. B, 2006, 110 (36), pp 18026–18039.
+;    http://pubs.acs.org/doi/abs/10.1021/jp0629036
+;
+[ atomtypes ]
+;type atnum    mass    charge  ptype  sigma    epsilon
+ ClO    17    35.450   0.000   A      0.3770   0.6196504  ;sigma=3.770A, epsilon=0.1481kcal/mol 
+ OCl     8    15.999   0.000   A      0.2771   0.6096088  ;sigma=2.771A, epsilon=0.1457kcal/mol
+
+[ bondtypes ]
+; i    j    func    b0 (nm)     kb(kJ/mol/nm^2)
+ ClO   OCl    1     0.15006     305432.0       ;365 kcal/mol/A^2 in [1]
+
+[ angletypes ]
+;i    j     k     func    theta(deg)  K_theta(kJ/mol/rad^2)
+ OCl  ClO   OCl   1       109.47      1046.0      ;125.00kcal/mol/rad^2 in [1]
+
+
+[ moleculetype ]
+; molname       nrexcl
+ ClO4-            3
+
+[ atoms ]
+;id  at.type  res.nr  res.name     at.name      cg nr   charge
+1    ClO      1       ClO4         Cl           1       1.34208
+2    OCl      1       ClO4         O1           1      -0.58552
+3    OCl      1       ClO4         O2           1      -0.58552
+4    OCl      1       ClO4         O3           1      -0.58552
+5    OCl      1       ClO4         O4           1      -0.58552
+
+[ bonds ]
+;i    j     func    b0(nm)   k_b(kJ/mol/nm^2)
+1     2     1       
+1     3     1
+1     4     1
+1     5     1
+
+[ angles ]
+;i   j    k    func    theta(deg) K_theta(kJ/mol/rad^2)
+2    1    3    1
+2    1    4    1
+2    1    5    1
+3    1    4    1
+3    1    5    1
+

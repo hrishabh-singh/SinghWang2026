@@ -1,0 +1,6 @@
+{
+  "descriptors": {"colsample_bytree": 0.7, "gamma": 0.0, "huber_slope": 0.5, "learning_rate": 0.1, "max_depth": 3,
+                  "min_child_weight": 3, "n_estimators": 300, "subsample": 0.8},
+  "descriptors_esm2": {"colsample_bytree": 0.5, "gamma": 0.0, "huber_slope": 0.5, "learning_rate": 0.03, "max_depth": 3,
+                       "min_child_weight": 3, "n_estimators": 1000, "subsample": 0.8}
+}
