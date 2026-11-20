@@ -6,8 +6,8 @@
 # Creates runs/<ION>/{a,b,c,...}, one directory per walker, each with plumed.dat, and starts all walkers in one
 # MPI job sharing a single bias (WALKERS_MPI). Continue a run with the same command after adding RESTART to the
 # plumed.dat files and appending '-cpi md2.cpt' to mdrun.
-#   plumed_Tb.dat   archived input of the Tb run (R_0 = 0.27 nm)
-#   plumed_Lu.dat   archived input of the Lu run (R_0 = 0.26 nm)
+#   plumed_Tb.dat   archived input of the Tb run
+#   plumed_Lu.dat   archived input of the Lu run
 # The La run inputs were not archived; it was run with the same protocol, six walkers.
 set -euo pipefail
 ION=${1:?ion, e.g. Tb}
