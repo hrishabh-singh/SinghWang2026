@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1464722281.svg)](https://doi.org/10.5281/zenodo.24475708)
 # SinghWang2026
 
 Simulation inputs, analysis code and machine-learning code for
